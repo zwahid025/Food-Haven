@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./feedback.html">
+        <fieldset>
+            <legend align="center"></legend>
+            <h1>Personal Information</h1>
+            <label> Username
+                <input type="text" placeholder="Enter your name" name="Username" maxlength="100" required>
+            </label><br><br>
+
+            <label>Email
+                <input type="email" placeholder="User@email.com" name="" id="">
+            </label><br><br>
+
+            <label>Password
+                <input type="password" placeholder="Enter your password" name="" id="">
+            </label><br><br>
+
+            <input type="submit" value="submit">
+
+            <!-- user gender -->
+             <input type="radio" name="gender" id="">Male
+             <input type="radio" name="gender" id="">Female
+             <input type="radio" name="gender" id="">Other
+
+             <!-- User Hobbies: -->
+              <label><br><br>
+                Choose your hobbies:
+                <input type="checkbox" name="Hobbies" id="" value="Football">Football
+                <input type="checkbox" name="Hobbies" id="" value="holyball">Holyball
+                <input type="checkbox" name="Hobbies" id="" value="vido">Video
+                <input type="checkbox" name="Hobbies" id="" value="Criket">Criket
+              </label><br>
+              
+               <label>
+                Subjects:
+                <select name="Subjet" id="">
+                    <option value="" selected disabled>Choose your field</option>
+                    <option value="Computer Science">Computer Science</option>
+                    <option value="Phy">Phy</option>
+                    <option value="chem">Chem</option>
+                    <option value="Bio">Bio</option>
+                    <option value="Maths">Maths</option>
+                </select>
+               </label><br><br>
+               
+               <label>
+                Profile Picture:
+                <input type="file" name="" id="" accept="image/*">
+               </label><br><br>
+
+               <input type="Hidden" name="Role" id="" value="Student">
+               <br><br>
+
+               <button type="submit">submit</button><br><br>
+
+               <!-- <input type="image" src="./assets/submit btn.jfif"  alt="" width="70px"  id=""> -->
+        </fieldset>
+    </form>
+
+</body>
+</html> 
